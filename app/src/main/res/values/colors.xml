@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#F18C8E</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_alpha">#FAE4F4</color>
+    <color name="bg_data_minyak">#FFF5E5</color>
+    <color name="bg_ses">#FFF1EF</color>
+    <color name="bg_des">#EAF9FE</color>
+    <color name="font_judul">#305F72</color>
+    <color name="font_sub_judul">#F18C8E</color>
+    <color name="bg_color">#F18C8E</color>
+    <color name="bg_coloralpha">#2E001F</color>
+    <color name="bg_colorminyak">#FFCA28</color>
+</resources>

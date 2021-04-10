@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    app:cardCornerRadius="25dp"
+   android:layout_marginBottom="8dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+
+    app:cardBackgroundColor="@color/bg_alpha"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <androidx.appcompat.widget.AppCompatImageView
+           android:id="@+id/logoitem"
+           android:layout_width="42dp"
+           android:layout_height="42dp"
+           android:layout_alignParentTop="true"
+           android:layout_margin="30dp"
+
+           android:src="@drawable/ic_alpha"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="@+id/appCompatImageView6"
+           app:layout_constraintHorizontal_bias="0.102"
+           app:layout_constraintStart_toStartOf="@+id/appCompatImageView6"
+           app:layout_constraintTop_toTopOf="@+id/appCompatImageView6" />
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:layout_alignParentEnd="true"
+           android:layout_marginStart="4dp"
+           android:layout_marginTop="10dp"
+
+           android:layout_toEndOf="@+id/logoitem"
+           android:gravity=""
+           android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/judul1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="16dp"
+               android:fontFamily="@font/lato_bold"
+               android:text="Pemilihan"
+               android:textColor="@color/font_judul" />
+
+           <TextView
+               android:id="@+id/judul2"
+               android:layout_width="218dp"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="4dp"
+               android:layout_marginEnd="128dp"
+               android:fontFamily="@font/lato_bold"
+               android:text="Parameter Alpha"
+               android:textColor="@color/font_judul"
+               android:textSize="14sp" />
+
+           <TextView
+               android:id="@+id/subjudul2"
+               android:layout_width="214dp"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="4dp"
+               android:layout_marginEnd="128dp"
+               android:fontFamily="@font/lato_light"
+               android:text="Memilih alpha 0.1- 0.9"
+               android:textColor="@color/font_sub_judul"
+               android:textSize="12sp" />
+       </LinearLayout>
+   </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
